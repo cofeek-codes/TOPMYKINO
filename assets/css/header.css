@@ -1,0 +1,69 @@
+header {
+    display: flex;
+    color: white;
+    padding: 1%;
+}
+
+header div {
+    width: calc(100%/3);
+}
+
+.header-1 a {
+    font-size: 1.667vw;
+}
+
+.header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-2 a {
+    font-size: 1.667vw;
+}
+
+.header-3 {
+    text-align: right;
+}
+
+.header-3 a {
+    font-size: 1.667vw;
+}
+
+.header-4 {
+    width: fit-content;
+    display: none;
+}
+
+/* планшет */
+@media screen and (width <=768px) {
+    .logo {
+        font-size: 6.25vw !important;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header div {
+        width: fit-content;
+    }
+
+    .header-2,
+    .header-3 {
+        display: none;
+    }
+
+    .header-4 {
+        display: block;
+        width: 6.25vw !important;
+        height: 6.25vw !important;
+    }
+
+    .header-4 img {
+        width: 100%;
+        height: 100%;
+    }
+}

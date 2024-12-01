@@ -1,0 +1,308 @@
+.ph1 {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.content {
+    width: 87.6%;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    color: white;
+}
+
+/*Список фильмов*/
+.archive {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5.21vw;
+    grid-auto-flow: row dense;
+    margin-bottom: 2.08vw;
+}
+
+.article span {
+    font-size: 1.25vw;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin: 0.313vw;
+    padding: 0 0.208vw;
+    border-radius: 0.313vw;
+}
+
+.article {
+    position: relative;
+    width: 15.63vw;
+    height: 20.83vw;
+}
+
+.article1 {
+    justify-self: start;
+}
+
+.article4 {
+    justify-self: end;
+}
+
+.article img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(100%);
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.article img:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.sortBY {
+    font-size: 32px;
+    margin-bottom: 1.75%;
+    user-select: none;
+}
+
+select {
+    width: 225px;
+    font-size: 32px;
+    color: white;
+    background: none;
+    border: 0;
+    border-radius: 0px;
+    outline: none;
+    appearance: none;
+}
+
+.select-wrapper {
+    appearance: none;
+    position: relative;
+    width: fit-content;
+}
+
+.select-wrapper::after {
+    content: "▼";
+    font-size: 16px;
+    top: 30%;
+    right: 0;
+    position: absolute;
+}
+
+option {
+    font-size: 32px;
+    color: white;
+    background: black;
+    border: 0;
+    outline: none;
+    padding: 0;
+}
+
+.divSearch {
+    font-size: 32px;
+    margin-bottom: 1.75%;
+    margin-top: 1.75%;
+    user-select: none;
+}
+
+#inputSearchMovie {
+    font-size: 32px;
+    border: 0;
+    border-bottom: 1px white solid;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#notFound {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 3%;
+    user-select: none;
+}
+
+.selectGenres {
+    user-select: none;
+    font-size: 32px;
+    position: relative;
+    width: 270px;
+}
+
+.selectGenres::after {
+    content: "▼";
+    font-size: 16px;
+    top: 30%;
+    right: 0;
+    position: absolute;
+}
+
+.listGenres {
+    margin-bottom: 1%;
+    display: flex;
+}
+
+.listGenres-block1 {
+    margin-right: 10px;
+}
+
+.textthing {
+    font-size: 24px;
+}
+
+input[type=checkbox] {
+    display: none;
+    user-select: none;
+}
+
+input[type=checkbox]+label {
+    background: url("../img/checkbox.svg");
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    margin-left: 10px;
+    user-select: none;
+}
+
+input[type=checkbox]:checked+label {
+    background: url("../img/checkbox-checked.svg");
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    user-select: none;
+}
+label {
+    user-select: none;
+}
+@media screen and (width <=768px) {
+    .article span {
+        font-size: 3.0125vw;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        margin: 0.626vw;
+        padding: 0 0.416vw;
+        border-radius: 0.626vw;
+    }
+
+    .textthing {
+        font-size: 3.125vw;
+    }
+
+    input[type=checkbox]+label {
+        height: 3.125vw;
+        width: 3.125vw;
+    }
+
+    input[type=checkbox]:checked+label {
+        height: 3.125vw;
+        width: 3.125vw;
+    }
+
+    #notFound {
+        font-size: 4.1667vw;
+    }
+
+    .archive {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .article {
+        width: 39.075vw;
+        height: 52.075vw;
+    }
+
+    .article1 {
+        justify-self: left;
+    }
+
+    .article2 {
+        justify-self: right;
+    }
+
+    .article3 {
+        justify-self: left;
+    }
+
+    .article4 {
+        justify-self: right;
+    }
+
+    .sortBY {
+        font-size: 4.1667vw;
+        margin-bottom: 1.75%;
+    }
+
+    .selectGenres {
+        font-size: 4.1667vw;
+        margin-bottom: 1.75%;
+        width: 40%;
+    }
+
+    .selectGenres::after {
+        content: "▼";
+        font-size: 2.0833vw;
+        top: 30%;
+        right: 0;
+        position: absolute;
+    }
+
+    select {
+        width: 29.2969vw;
+        font-size: 4.1667vw;
+        color: white;
+        background: none;
+        border: 0;
+        border-radius: 0px;
+        outline: none;
+        appearance: none;
+    }
+
+    .select-wrapper {
+        appearance: none;
+        position: relative;
+        width: fit-content;
+    }
+
+    .select-wrapper::after {
+        content: "▼";
+        font-size: 2.0833vw;
+        top: 30%;
+        right: 0;
+        position: absolute;
+    }
+
+    option {
+        font-size: 4.1667vw;
+        color: white;
+        background: black;
+        border: 0;
+        outline: none;
+        padding: 0;
+    }
+
+    .divSearch {
+        font-size: 4.1667vw;
+    }
+
+    #inputSearchMovie {
+        font-size: 4.1667vw;
+    }
+
+}
+
+@media screen and (width <=600px) {
+    .ph1 {
+        font-size: 9vw;
+    }
+}

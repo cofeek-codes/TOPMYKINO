@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOPMYKINO</title>
+  <!--Главный css-->
+  <link rel="stylesheet" href="./assets/css/MAIN.css" />
+  <!--Шапка css-->
+  <link rel="stylesheet" href="./assets/css/header.css" />
+  <!--Основной css-->
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <!--Подвал css-->
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+  <!--Слайдеры-->
+  <link rel="stylesheet" href="./assets/css/sliderMovies.css">
+  <!--Модальное окно для телефонов и планшетов-->
+  <link rel="stylesheet" href="./assets/css/mobileMenu.css">
+  <link rel="stylesheet" href="./assets/css/subscription.css">
+</head>
+
+<body>
+  <!-- Анимация html-->
+  <div id="animation" class="animation"></div>
+  <!--Модальное окно для телефонов и планшетов-->
+  <div class="window"></div>
+  <div class="modul">
+    <div><a href="index.html">Главная</a></div>
+    <div><a href="./pages/movies.html">Фильмы</a></div>
+    <div><a href="./pages/serials.html">Сериалы</a></div>
+    <div><a class="auth" href="./pages/authorization.html">Профиль</a></div>
+  </div>
+  <div class="window2"></div>
+  <div class="modul2">
+    <div class="flex">
+      <div class="sub-1">
+        <h2>На месяц</h2>
+        <div style="color:white"> </div>
+        <div>299 руб./мес.</div>
+      </div>
+      <div class="sub-2">
+        <h2>На год</h2>
+        <div style="color:white">ВЫГОДНО!</div>
+        <div>2799 руб./год</div>
+      </div>
+    </div>
+    <button class="buysub" type="button">Купить подписку</button>
+  </div>
+
+  <!--Начало сайта-->
+  <div>
+    <!--Начало шапки-->
+    <header>
+      <div class="header-1">
+        <a class="logo" href="index.html">TOPMYKINO</a>
+      </div>
+      <div class="header-2">
+        <a href="./pages/movies.html">Фильмы</a>
+        <a href="./pages/serials.html">Сериалы</a>
+      </div>
+      <div class="header-3">
+        <a class="auth" href="./pages/authorization.html">Профиль</a>
+      </div>
+      <div class="header-4">
+        <img class="header-4-img" src="./assets/img/menu.svg" />
+      </div>
+    </header>
+    <!--Конец шапки-->
+    <hr />
+    <!--Начало рекламного блока-->
+    <div class="div1">
+    </div>
+    <!--Конец рекламного блока-->
+    <!--Начало слайдеров с фильмами и сериалами-->
+    <div class="div2">
+      <p class="div2p">Фильмы для вас</p>
+      <div class="sliderMovies"></div>
+    </div>
+    <div class="div2">
+      <p class="div2p">Сериалы для вас</p>
+      <div class="sliderSerials"></div>
+    </div>
+    <!--Конец слайдеров с фильмами и сериалами-->
+  </div>
+  <div>
+    <!--Начало подвала-->
+    <hr />
+    <footer>
+      <div class="footer-1">
+        <p class="footerP">Техническая поддержка</p>
+        <p class="footerPgray1">
+          Мы с удовольствием ответим на интересующие тебя вопросы
+        </p>
+        <p class="footerPgray">topmykino@mail.ru</p>
+        <a href="./pages/technicalSupport.html" class="btnWrite">Написать</a>
+      </div>
+      <div class="footer-2">
+        <p class="footerP"><a href="#">Пользовательское соглашение</a></p>
+        <p class="footerP"><a href="#">Политика конфиденциальности</a></p>
+      </div>
+      <div class="footer-3">
+        <p class="footerP">
+          <a href="./pages/company.html">О компании</a>
+        </p>
+      </div>
+      <div class="footer-4">
+        <p class="footerP">Социальные сети</p>
+        <div class="socialNetwork">
+          <a href="https://dzen.ru/" target="_blank"><img src="./assets/img/dzen.png" /></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="./assets/img/YT.png" /></a>
+          <a href="https://web.telegram.org/" target="_blank"><img src="./assets/img/Teleg.png" /></a>
+          <a href="https://vk.com/" target="_blank"><img src="./assets/img/VK.png" /></a>
+        </div>
+      </div>
+    </footer>
+    <!--Конец подвала-->
+  </div>
+</body>
+<script src="./assets/js/dbMovies.js"></script>
+<script src="./assets/js/dbSerials.js"></script>
+<script src="./assets/js/sliderMovie.js"></script>
+<script src="./assets/js/sliderSerials.js"></script>
+<script src="./assets/js/indexAnimation.js"></script>
+<script src="./assets/js/jquery-3.7.1.min.js"></script>
+<script src="./assets/js/mobileMenu.js"></script>
+<script src="./assets/js/linkMovie.js"></script>
+<script src="./assets/js/linkSerial.js"></script>
+<script src="./assets/js/indexLinkProfile.js"></script>
+<script src="./assets/js/indexclickbuysubscription.js"></script>
+<script src="./assets/js/buysubscription.js"></script>
+
+</html>

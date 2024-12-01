@@ -1,0 +1,125 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    margin-bottom: 1.35vw;
+    padding-left: 1.1%;
+    padding-right: 1.1%;
+}
+.footer-1 {}
+
+.footer-2 {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-3 {
+    text-align: center;
+}
+
+.footer-4 {
+    text-align: right;
+}
+
+.footerP {
+    font-size: 1.67vw;
+    height: fit-content;
+}
+
+.footerPgray1 {
+    color: grey;
+    font-size: 1.25vw;
+    margin: 0;
+}
+
+.footerPgray {
+    color: grey;
+    font-size: 1.25vw;
+}
+
+.socialNetwork {
+    margin: 0 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 13.54vw;
+}
+
+.socialNetwork a {
+    background-color: white;
+    border-radius: 0.52vw;
+    width: 2.60vw;
+    height: 2.60vw;
+    display: flex;
+}
+
+.socialNetwork a img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.31vw;
+}
+
+.btnWrite {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 1.25vw;
+    padding: 2% 17% 2% 17%;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    letter-spacing: calc(1.25vw*35/100);
+}
+@media screen and (width <=768px) {
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+    .footerP {
+        text-align: center;
+        font-size: 3.6458vw;
+    }
+    .footerPgray1 {
+        /* font-size: 2.3438vw; */
+        font-size: 2.8646vw;
+    }
+    .footerPgray {
+        margin-top: 2%;
+        /* font-size: 2.3438vw; */
+        font-size: 2.8646vw;
+    }
+    .btnWrite {
+        font-size: 3.5156vw;
+    }
+
+    .socialNetwork {
+        margin: 0 auto;
+        width: calc(1.5*27.08vw);
+    }
+    
+    .socialNetwork a {
+        border-radius: calc(1.5*1.04vw);
+        width: calc(1.5*5.2vw);
+        height: calc(1.5*5.2vw);
+    }
+    
+    .socialNetwork a img {
+        padding: calc(1.5*0.62vw);
+    }
+    .footer-1 .footerP {
+        margin-bottom: 2%;
+    }
+    .footer-2 .footerP {
+        margin-bottom: 2%;
+    }
+
+    .footer-4 .footerP {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .footer-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

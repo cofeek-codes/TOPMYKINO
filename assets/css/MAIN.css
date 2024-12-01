@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+        url(../fonts/Inter-Regular.otf);
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+/* img {
+    pointer-events: none;
+} */
+button:hover {
+    text-shadow: black 0.21vw 0.31vw 0.42vw;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    height: 100%;
+    scrollbar-width: none;
+}
+
+body {
+    height: 100%;
+    font-family: 'Inter';
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    font-family: 'Inter';
+}
+
+button {
+    font-family: 'Inter';
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    color: white;
+}
+
+hr {
+    border-color: grey;
+    border-width: 2px;
+    margin: 0;
+}

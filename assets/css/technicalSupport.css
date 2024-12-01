@@ -1,0 +1,118 @@
+.h1head {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3.8%;
+}
+
+.btnTechWrite {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    padding: 2% 8% 2% 8%;
+    border-radius: 20px 20px 20px 20px;
+    min-height: 50px;
+    font-weight: bold;
+}
+
+.divTechWrite {
+    width: 27%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8%;
+}
+
+.inputSupport {
+    width: 100%;
+    font-size: 20px;
+    border-color: #FF5A24;
+    border-width: 3px;
+    border-radius: 20px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 8px;
+    height: 100%;
+    min-height: 300px;
+    resize: vertical;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.inputSupport:focus {
+    border-color: white;
+
+}
+
+.inputSupport::-webkit-input-placeholder {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+
+.textSupport {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+/*Форма*/
+.hrorange {
+    border-color: #FF5A24;
+    border-width: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.email {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.inputEmail {
+    width: 100%;
+    font-size: 28px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    box-sizing: border-box;
+    padding-bottom: 0.6vw;
+}
+
+.inputEmail::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+@media screen and (width <=520px) {
+    .email,
+    .password,
+    .flexAuth,
+    .textSupport {
+        min-width: 1px;
+        width: 100%;
+    }
+    .h1head {
+    font-size: 56px;
+    } 
+}
+@media screen and (width <=350px) {
+    .h1head {
+    font-size: 16vw;
+    } 
+}
+

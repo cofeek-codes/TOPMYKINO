@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOPMYKINO - THISSERIAL</title>
+  <!--Главный css-->
+  <link rel="stylesheet" href="../assets/css/MAIN.css" />
+  <!--Шапка css-->
+  <link rel="stylesheet" href="../assets/css/header.css" />
+  <!--Этот фильм css-->
+  <link rel="stylesheet" href="../assets/css/thisserial.css" />
+  <!--Подвал css-->
+  <link rel="stylesheet" href="../assets/css/footer.css" />
+  <!--Модальное окно для телефонов и планшетов-->
+  <link rel="stylesheet" href="../assets/css/mobileMenu.css" />
+</head>
+
+<body>
+  <!--Модальное окно для телефонов и планшетов-->
+  <div class="window"></div>
+  <div class="modul">
+    <div><a href="../index.html">Главная</a></div>
+    <div><a href="./movies.html">Фильмы</a></div>
+    <div><a href="./serials.html">Сериалы</a></div>
+    <div><a class="auth" href="./authorization.html">Профиль</a></div>
+  </div>
+  <div>
+    <!--Начало шапки-->
+    <header>
+      <div class="header-1">
+        <a class="logo" href="../index.html">TOPMYKINO</a>
+      </div>
+      <div class="header-2">
+        <a href="./movies.html">Фильмы</a>
+        <a href="./serials.html">Сериалы</a>
+      </div>
+      <div class="header-3">
+        <a class="auth" href="./authorization.html">Профиль</a>
+      </div>
+      <div class="header-4">
+        <img class="header-4-img" src="../assets/img/menu.svg" />
+      </div>
+    </header>
+    <!--Конец шапки-->
+    <hr />
+    <div class="thisserial">
+      <div class="ph1">Главный герой</div>
+      <div class="video">
+        <div class="videoShadow"></div>
+        <video muted="muted" id="video">
+        </video>
+      </div>
+      <div class="flex-content">
+        <div class="flex-content-div1">
+          <img class="img1" src="../assets/img/maingeroi.jpg" />
+          <img class="img2" src="../assets/img/maingeroifull.jpg" />
+          <div class="trailertxt">Трейлер</div>
+        </div>
+        <div class="flex-content-div2">
+          <div class="serial-name">Главный герой (2021)</div>
+          <div class="serial-title">Free Guy 18+</div>
+          <div class="divWatch">
+            <button class="btnWatch">Смотреть</button>
+          </div>
+          <div class="serial-about">О сериале</div>
+          <table class="table-1">
+          </table>
+        </div>
+        <div class="flex-content-div3">
+          <div class="flex-content-div3-div1">
+            <div class="flex-content-div3-div1-1">РЕЙТИНГ</div>
+            <div class="flex-content-div3-div1-rating">
+              <span class="serial-rating">8.0</span>
+              <span>/</span>
+              <span>10</span>
+            </div>
+          </div>
+          <div class="flex-content-div3-div2">
+            <div class="flex-content-div3-div2-div1">В главных ролях &gt;</div>
+            <div>
+              <ul class="ulacters">
+                <li>Райан Рейнольдс</li>
+                <li>Джоди Комер</li>
+                <li>Лил Рел Ховери</li>
+                <li>Джо Кири</li>
+              </ul>
+            </div>
+            <div class="divmoreacters">n актёров</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <!--Начало подвала-->
+    <hr />
+    <footer>
+      <div class="footer-1">
+        <p class="footerP">Техническая поддержка</p>
+        <p class="footerPgray1">
+          Мы с удовольствием ответим на интересующие тебя вопросы
+        </p>
+        <p class="footerPgray">topmykino@mail.ru</p>
+        <a href="./technicalSupport.html" class="btnWrite">Написать</a>
+      </div>
+      <div class="footer-2">
+        <p class="footerP"><a href="#">Пользовательское соглашение</a></p>
+        <p class="footerP"><a href="#">Политика конфиденциальности</a></p>
+      </div>
+      <div class="footer-3">
+        <p class="footerP">
+          <a href="./company.html">О компании</a>
+        </p>
+      </div>
+      <div class="footer-4">
+        <p class="footerP">Социальные сети</p>
+        <div class="socialNetwork">
+          <a href="https://dzen.ru/" target="_blank"><img src="../assets/img/dzen.png" /></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/YT.png" /></a>
+          <a href="https://web.telegram.org/" target="_blank"><img src="../assets/img/Teleg.png" /></a>
+          <a href="https://vk.com/" target="_blank"><img src="../assets/img/VK.png" /></a>
+        </div>
+      </div>
+    </footer>
+    <!--Конец подвала-->
+  </div>
+</body>
+<script src="../assets/js/jquery-3.7.1.min.js"></script>
+<script src="../assets/js/mobileMenu.js"></script>
+<script src="../assets/js/videoRepeat.js"></script>
+<script src="../assets/js/thisSerial.js"></script>
+<script src="../assets/js/LinkProfile.js"></script>
+<script src="../assets/js/funcWatch.js"></script>
+</html>

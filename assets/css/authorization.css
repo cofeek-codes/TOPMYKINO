@@ -1,0 +1,150 @@
+.h1head {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3.8%;
+}
+
+.divAuthorization {
+    width: 27%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8%;
+}
+
+.btnAuthorization {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 28px;
+    padding: 2% 26% 2% 26%;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 340px;
+    min-height: 50px;
+    font-weight: bold;
+}
+
+.flexAuth {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexAuth a {
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flex-auth1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.flex-auth1 img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+}
+
+/* Форма */
+.hrorange {
+    border-color: #FF5A24;
+    border-width: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.email {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.inputEmail {
+    width: 100%;
+    font-size: 28px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    box-sizing: border-box;
+    padding-bottom: 0.6vw;
+}
+
+.inputEmail::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+
+.password {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.inputPassword {
+    width: 100%;
+    font-size: 28px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 40px;
+    box-sizing: border-box;
+    padding-bottom: 0.6vw;
+}
+
+.inputPassword::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+@media screen and (width <=520px) {
+    .email,
+    .password,
+    .flexAuth {
+        min-width: 1px;
+        width: 100%;
+    }
+    .h1head {
+    font-size: 10.7692vw;
+    }
+    .btnAuthorization {
+        background: linear-gradient(to right, #FF8C20, #FF5A24);
+        border: 0px;
+        outline: none;
+        color: white;
+        font-size: 28px;
+        padding: 0.5409vw 7.0313vw 0.5409vw 7.0313vw;
+        border-radius: 20px 20px 20px 20px;
+        min-width: 340px;
+        min-height: 50px;
+        font-weight: bold;
+    } 
+}
+@media screen and (width <=340px) {
+    .divAuthorization {
+        width: 100%;
+    }
+    .btnAuthorization {
+        width: 100%;
+        min-width: 300px;
+    } 
+}
+

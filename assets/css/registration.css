@@ -1,0 +1,182 @@
+.h1head {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3.8%;
+}
+
+.flex-reg {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.flex-reg img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+}
+
+/* Форма */
+.hrorange {
+    border-color: #FF5A24;
+    border-width: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.email {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.inputEmail {
+    width: 100%;
+    font-size: 28px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    box-sizing: border-box;
+    padding-bottom: 0.6vw;
+}
+
+.inputEmail::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+
+.password {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.inputPassword {
+    width: 100%;
+    font-size: 28px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 40px;
+    box-sizing: border-box;
+    padding-bottom: 0.6vw;
+}
+
+.inputPassword::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+
+.divRegistration {
+    width: 27%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8%;
+}
+
+.btnRegistration {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 28px;
+    padding: 0.5% 4% 0.5% 4%;
+    border-radius: 20px 20px 20px 20px;
+    min-height: 50px;
+    min-width: 340px;
+    font-weight: bold;
+}
+
+.passwordDouble {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inputPasswordDouble {
+    width: 100%;
+    font-size: 28px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 40px;
+    box-sizing: border-box;
+    padding-bottom: 0.6vw;
+}
+
+.inputPasswordDouble::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align: left;
+    color: grey;
+}
+
+@media screen and (width <=768px) {
+    .h1head {
+        /* 56px */
+        font-size: 7.29vw;
+    }
+}
+
+/* @media screen and (width <=620px) {
+    .h1head {
+        56px
+        font-size: 4.9453vw; 
+    }
+} */
+
+@media screen and (width <=520px) {
+
+    .email,
+    .password,
+    .flexAuth,
+    .passwordDouble {
+        min-width: 1px;
+        width: 100%;
+    }
+
+    .h1head {
+        font-size: 7.3038vw;
+    }
+
+    .btnRegistration {}
+}
+@media screen and (width <=340px) {
+
+    .email,
+    .password,
+    .flexAuth,
+    .passwordDouble {
+        min-width: 1px;
+        width: 100%;
+    }
+
+    .h1head {
+        font-size: 7.3038vw;
+    }
+    .divRegistration {
+        width: 100%;
+    }
+    .btnRegistration {
+        width: 100%;
+        min-width: 1px;
+        font-size: 8.2353vw;
+    }
+}

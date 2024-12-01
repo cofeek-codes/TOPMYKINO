@@ -1,0 +1,251 @@
+/*Контнет страницы*/
+.divProfile {
+    width: 87.6%;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    color: white;
+}
+
+.divProfile1 {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.divProfile1_1 {
+    width: fit-content;
+}
+
+.divProfile1_2 {
+    text-align: right;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divProfile1_1_Profile {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.divProfile1_1_Name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2.1%;
+}
+
+.divProfile1_1_Email {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2.6%;
+}
+
+.divProfile1_1_Reg {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2.6%;
+}
+
+.divProfile1_1_Subscribe {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.divProfile1_1_Love {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 2.8%;
+    display: flex;
+    align-items: center;
+}
+
+.divProfile1_1_Love img {
+    width: 49.92px;
+    height: 49.92px;
+}
+
+.btnChangeProfile {
+    border-radius: 9.984px;
+    font-size: 24px;
+    border: 0px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    box-sizing: border-box;
+    margin-bottom: 2.604vw;
+}
+
+.btnLogOutProfile {
+    border-radius: 9.984px;
+    font-size: 24px;
+    border: 0px;
+    background-color: rgb(170, 0, 0);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    box-sizing: border-box;
+}
+.article span {
+    font-size: 1.25vw;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin: 0.313vw;
+    padding: 0 0.208vw;
+    border-radius: 0.313vw;
+}
+
+/*Список фильмов*/
+.archive {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5.21vw;
+    grid-auto-flow: row dense;
+    margin-bottom: 2.08vw;
+}
+
+.article {
+    position: relative;
+    width: 15.63vw;
+    height: 20.83vw;
+}
+
+.article1 {
+    justify-self: start;
+}
+
+.article4 {
+    justify-self: end;
+}
+
+.article img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(100%);
+    transition: 0.5s;
+
+}
+
+.article img:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+.btnBuyProfile {
+    border-radius: 9.984px;
+    font-size: 24px;
+    border: 0px;
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    box-sizing: border-box;
+    margin-bottom: 2.604vw;
+}
+@media screen and (width <=1024px) {
+    .divProfile1_1_Profile {
+        font-size: 4.688vw;
+    }
+
+    .divProfile1_1_Name {
+        font-size: 3.125vw;
+    }
+
+    .divProfile1_1_Email {
+        font-size: 3.125vw;
+    }
+
+    .divProfile1_1_Reg {
+        font-size: 3.125vw;
+    }
+
+    .divProfile1_1_Subscribe {
+        font-size: 3.125vw;
+    }
+
+    .divProfile1_1_Love {
+        font-size: 4.688vw;
+    }
+
+    .divProfile1_1_Love img {
+        width: 4.875vw;
+        height: 4.875vw;
+    }
+
+    .btnChangeProfile {
+        border-radius: 0.975vw;
+        font-size: 2.344vw;
+        padding-left: 1.953vw;
+        padding-right: 1.953vw;
+    }
+    .btnBuyProfile {
+        border-radius: 0.975vw;
+        font-size: 2.344vw;
+        padding-left: 1.953vw;
+        padding-right: 1.953vw;
+    }
+
+    .btnLogOutProfile {
+        border-radius: 0.975vw;
+        font-size: 2.344vw;
+        padding-left: 1.953vw;
+        padding-right: 1.953vw;
+    }
+}
+
+@media screen and (width <=768px) {
+    .article span {
+        font-size: 3.0125vw;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        margin: 0.626vw;
+        padding: 0 0.416vw;
+        border-radius: 0.626vw;
+    }
+
+    .archive {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .article {
+        width: 39.075vw;
+        height: 52.075vw;
+    }
+
+    .article1 {
+        justify-self: left;
+    }
+
+    .article2 {
+        justify-self: right;
+    }
+
+    .article3 {
+        justify-self: left;
+    }
+
+    .article4 {
+        justify-self: right;
+    }
+
+}

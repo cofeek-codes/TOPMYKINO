@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOPMYKINO - Авторизация</title>
+  <!--Главный css-->
+  <link rel="stylesheet" href="../assets/css/MAIN.css" />
+  <!--Шапка-->
+  <link rel="stylesheet" href="../assets/css/header.css" />
+  <!--Авторизация css-->
+  <link rel="stylesheet" href="../assets/css/authorization.css" />
+  <!--Подвал css-->
+  <link rel="stylesheet" href="../assets/css/footer.css" />
+</head>
+
+<body>
+  <!--Начало сайта-->
+  <div>
+    <!--Начало шапки-->
+    <header>
+      <div class="header-1">
+        <a class="logo" href="../index.html">TOPMYKINO</a>
+      </div>
+    </header>
+    <!--Конец шапки-->
+    <hr />
+    <!--Начало формы авторизации-->
+    <div>
+      <h1 class="h1head">Авторизация</h1>
+      <form action="profile.html" method="POST">
+        <div class="email">
+          <input name="email" class="inputEmail" type="email" placeholder="E-mail" />
+          <hr class="hrorange" />
+        </div>
+        <br />
+        <div class="password">
+          <div class="flex-auth1">
+            <input name="password" id="password" class="inputPassword" type="password" placeholder="Пароль" />
+            <img src="../assets/img/eye2.svg" onclick="show_hide_password()" />
+          </div>
+          <hr class="hrorange" />
+        </div>
+        <br />
+        <div class="divAuthorization">
+          <button class="btnAuthorization">Войти</button>
+        </div>
+      </form>
+      <br />
+      <div class="flexAuth">
+        <a href="registration.html">Нет аккаунта?</a>
+        <a href="#">Забыли пароль?</a>
+      </div>
+    </div>
+    <!--Конец формы авторизации-->
+  </div>
+  <div>
+    <!--Начало подвала-->
+    <hr />
+    <footer>
+      <div class="footer-1">
+        <p class="footerP">Техническая поддержка</p>
+        <p class="footerPgray1">
+          Мы с удовольствием ответим на интересующие тебя вопросы
+        </p>
+        <p class="footerPgray">topmykino@mail.ru</p>
+        <a href="./technicalSupport.html" class="btnWrite">Написать</a>
+      </div>
+      <div class="footer-2">
+        <p class="footerP"><a href="#">Пользовательское соглашение</a></p>
+        <p class="footerP"><a href="#">Политика конфиденциальности</a></p>
+      </div>
+      <div class="footer-3">
+        <p class="footerP">
+          <a href="./company.html">О компании</a>
+        </p>
+      </div>
+      <div class="footer-4">
+        <p class="footerP">Социальные сети</p>
+        <div class="socialNetwork">
+          <a href="https://dzen.ru/" target="_blank"><img src="../assets/img/dzen.png" /></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/YT.png" /></a>
+          <a href="https://web.telegram.org/" target="_blank"><img src="../assets/img/Teleg.png" /></a>
+          <a href="https://vk.com/" target="_blank"><img src="../assets/img/VK.png" /></a>
+        </div>
+      </div>
+    </footer>
+    <!--Конец подвала-->
+  </div>
+  <!--Конец сайта-->
+</body>
+<script src="../assets/js/showpassword.js"></script>
+<script src="../assets/js/setProfile.js"></script>
+
+
+</html>

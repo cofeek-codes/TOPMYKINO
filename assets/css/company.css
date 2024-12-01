@@ -1,0 +1,72 @@
+.divCompany {
+    width: 87.6%;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    color: white;
+}
+
+.h {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 3%;
+}
+
+.divCompany-block1 {
+    font-size: 32px;
+    margin-bottom: 2.6%;
+}
+
+.divCompany-block1 div {
+    margin-bottom: 1%;
+}
+
+.divCompany-block2 {
+    font-size: 32px;
+}
+
+.divCompany-block2 *:first-child {
+    margin-bottom: 1%;
+}
+
+.divCompany-block3 {
+    font-size: 32px;
+}
+
+.divCompany-block3-h {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.divCompany-block3-1 {
+    border: 2px grey solid;
+    border-radius: 2.083vw;
+    padding: 2%;
+    box-shadow: 0px 0px 10px 5px grey;
+}
+.divCompany-block3-block-text {
+    font-size: 24px;
+}
+.divCompany-block3-2 {
+    border: 2px grey solid;
+    border-radius: 2.083vw;
+    padding: 2%;
+    box-shadow: 0px 0px 10px 5px grey;
+}
+
+
+@media screen and (width <=1024px) {
+    .h {
+        font-size: 4.688vw;
+    }
+
+    .divCompany-block1,
+    .divCompany-block2,
+    .divCompany-block3 {
+        font-size: 3.125vw;
+    }
+    .divCompany-block3-block-text {
+        font-size: 2.344vw;
+    }    
+}
